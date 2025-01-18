@@ -126,7 +126,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $mail->Port = 587;
 
             // Recipients
-            $mail->setFrom('ansariasfak955@gmail.com', 'Testing Info');
+            $mail->setFrom('admin@gmail.com', 'Testing Info');
             $mail->addAddress($email);
 
             // Attachments
