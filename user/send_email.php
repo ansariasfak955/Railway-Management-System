@@ -18,7 +18,7 @@ function sendOTPEmail($email, $otp) {
         $mail->Port = 587; 
 
         //Recipients
-        $mail->setFrom('ansariasfak955@gmail.com', 'testinginfo');
+        $mail->setFrom('admin@gmail.com', 'testinginfo');
         $mail->addAddress($email); 
 
         // Content
